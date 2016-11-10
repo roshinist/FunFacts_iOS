@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D51E6F2D1DC7B0B400F8CD73 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E6F2C1DC7B0B400F8CD73 /* Background.swift */; };
+		D589A5411DD4E63200C9B7FC /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589A5401DD4E63200C9B7FC /* ColorWheel.swift */; };
 		D5FA17471DC1644B00FE8D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA17461DC1644B00FE8D05 /* AppDelegate.swift */; };
 		D5FA17491DC1644B00FE8D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA17481DC1644B00FE8D05 /* ViewController.swift */; };
 		D5FA174C1DC1644C00FE8D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FA174A1DC1644C00FE8D05 /* Main.storyboard */; };
@@ -17,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D51E6F2C1DC7B0B400F8CD73 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		D589A5401DD4E63200C9B7FC /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		D589A5421DD4EA5D00C9B7FC /* scratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = scratchPad.playground; path = Playgrounds/scratchPad.playground; sourceTree = "<group>"; };
 		D5FA17431DC1644B00FE8D05 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FA17461DC1644B00FE8D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5FA17481DC1644B00FE8D05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,11 +62,12 @@
 				D5FA17461DC1644B00FE8D05 /* AppDelegate.swift */,
 				D5FA17481DC1644B00FE8D05 /* ViewController.swift */,
 				D5FA17581DC1710D00FE8D05 /* FactBook.swift */,
+				D589A5401DD4E63200C9B7FC /* ColorWheel.swift */,
 				D5FA174A1DC1644C00FE8D05 /* Main.storyboard */,
 				D5FA174D1DC1644C00FE8D05 /* Assets.xcassets */,
 				D5FA174F1DC1644C00FE8D05 /* LaunchScreen.storyboard */,
 				D5FA17521DC1644C00FE8D05 /* Info.plist */,
-				D51E6F2C1DC7B0B400F8CD73 /* Background.swift */,
+				D589A5421DD4EA5D00C9B7FC /* scratchPad.playground */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -145,7 +147,7 @@
 				D5FA17591DC1710D00FE8D05 /* FactBook.swift in Sources */,
 				D5FA17491DC1644B00FE8D05 /* ViewController.swift in Sources */,
 				D5FA17471DC1644B00FE8D05 /* AppDelegate.swift in Sources */,
-				D51E6F2D1DC7B0B400F8CD73 /* Background.swift in Sources */,
+				D589A5411DD4E63200C9B7FC /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = roshini.FunFacts;
@@ -278,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = roshini.FunFacts;
